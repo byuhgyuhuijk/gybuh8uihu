@@ -22,7 +22,7 @@ const htmlData=(data)=>{
 output.innerHTML=`
 <div>
 <h2>Название города:${data.name}</h2>
-<p>Температура:${data.main.temp}</p>
+<p>Температура:${data.main.temp} °C</p>
 <p>Описание:${data.weather[0].main}</p>
 <p>Влажность:${data.main.humidity}</p>
 
